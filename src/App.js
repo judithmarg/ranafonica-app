@@ -89,7 +89,7 @@ function App() {
         break;
     }
     const audioRep =  new Audio(resultado);
-    audioRep.volume = 0.4;
+    //audioRep.volume = 0.4;
     audioRep.play();
   };
 
