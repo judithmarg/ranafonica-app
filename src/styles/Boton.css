@@ -1,0 +1,25 @@
+.boton-contenedor {
+    height: 60px;
+    width: 60px;
+    display: flex;
+    /*flex: 1 1;  /*longitud flexible, se distribuye entre los demas*/
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 38px;
+    background-color: black;
+    color: rgb(18, 122, 122);
+    border-radius:50px;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 10px;
+    cursor: pointer;   /*se vuelve manito*/
+    user-select: none;
+}
+
+.boton-contenedor:hover {
+    background-color: rgb(196, 184, 18);
+}
+
+.operador {
+    background-color: rgb(255, 238, 0);
+}
